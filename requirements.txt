@@ -9,7 +9,9 @@ colorama==0.4.6
 gitdb==4.0.11
 GitPython==3.1.43
 idna==3.10
+imbalanced-learn==0.12.4
 Jinja2==3.1.4
+joblib==1.4.2
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 markdown-it-py==3.0.0
@@ -30,10 +32,13 @@ referencing==0.35.1
 requests==2.32.3
 rich==13.9.4
 rpds-py==0.22.3
+scikit-learn==1.6.0
+scipy==1.14.1
 six==1.17.0
 smmap==5.0.1
 streamlit==1.41.0
 tenacity==9.0.0
+threadpoolctl==3.5.0
 toml==0.10.2
 tornado==6.4.2
 typing_extensions==4.12.2
