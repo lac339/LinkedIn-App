@@ -61,7 +61,7 @@ def sent_app():
     st.markdown("""
     **About this App**
     This application predicts whether an individual uses LinkedIn based on demographic data and personal characteristics.
-    Input your your details in the sliders and dropdown below                         
+    Input your your details in the sliders and dropdown below. Predictive Model and App created by Leonard Collins.                         
     """)
     
     # User inputs
