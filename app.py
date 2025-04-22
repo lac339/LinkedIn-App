@@ -57,6 +57,13 @@ y_pred = lr.predict(x_test)
 def sent_app():
     st.title('LinkedIn Usage Prediction')
 
+        #Description Section
+    st.markdown("""
+    **About this App**
+    This application predicts whether an individual uses LinkedIn based on demographic data and personal characteristics.
+    Input your your details in the sliders and dropdown below                         
+    """)
+    
     # User inputs
     income = st.slider('Income Level (1-9)', 1, 9, 5)
     education = st.slider('Education Level (1-8)', 1, 8, 4)
